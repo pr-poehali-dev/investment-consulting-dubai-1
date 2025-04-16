@@ -4,17 +4,17 @@ import { Building2, Users, TrendingUp } from "lucide-react";
 const StatsSection = () => {
   const stats = [
     {
-      icon: <Building2 className="h-10 w-10 text-secondary" />,
+      icon: <Building2 className="h-10 w-10 text-primary" />,
       value: "250+",
       label: "Успешных проектов"
     },
     {
-      icon: <Users className="h-10 w-10 text-secondary" />,
+      icon: <Users className="h-10 w-10 text-primary" />,
       value: "500+",
       label: "Довольных клиентов"
     },
     {
-      icon: <TrendingUp className="h-10 w-10 text-secondary" />,
+      icon: <TrendingUp className="h-10 w-10 text-primary" />,
       value: "30%",
       label: "Средняя доходность"
     }
@@ -32,11 +32,11 @@ const StatsSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stats.map((stat, index) => (
-            <Card key={index} className="bg-white/10 border-white/20 text-center shadow-lg hover:bg-white/15 transition-colors">
+            <Card key={index} className="bg-white/25 border-white/30 text-center shadow-xl hover:bg-white/35 transition-colors">
               <CardContent className="pt-6">
                 <div className="flex justify-center mb-4">{stat.icon}</div>
                 <div className="text-4xl font-bold mb-2">{stat.value}</div>
-                <div className="text-lg opacity-90">{stat.label}</div>
+                <div className="text-lg">{stat.label}</div>
               </CardContent>
             </Card>
           ))}
