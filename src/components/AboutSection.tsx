@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="/placeholder.svg" 
+              src="/team-image.jpg" 
               alt="Наша команда" 
               className="rounded-lg shadow-lg"
             />

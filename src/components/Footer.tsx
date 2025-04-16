@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo-b.svg" alt="Dubai Invest" className="h-8 invert" />
+              <img src="/logo.svg" alt="Dubai Invest" className="h-8 invert" />
               <div className="font-semibold text-lg">Dubai Invest</div>
             </div>
             <p className="text-sm opacity-80 mb-4">

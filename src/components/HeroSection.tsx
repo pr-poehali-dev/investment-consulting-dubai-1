@@ -4,10 +4,10 @@ import { ArrowRight } from "lucide-react";
 const HeroSection = () => {
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-secondary/10 -z-10" />
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-secondary/30 -z-10" />
       <div 
-        className="absolute inset-0 bg-[url('/placeholder.svg')] bg-cover bg-center opacity-30 -z-20"
-        style={{ backgroundImage: "url('/placeholder.svg')" }}
+        className="absolute inset-0 bg-cover bg-center opacity-30 -z-20"
+        style={{ backgroundImage: "url('/dubai-skyline.jpg')" }}
       />
       
       <div className="container py-20 md:py-32">

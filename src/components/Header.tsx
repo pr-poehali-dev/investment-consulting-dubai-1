@@ -8,7 +8,7 @@ const Header = () => {
     <header className="border-b">
       <div className="container py-2 flex justify-between items-center">
         <div className="flex items-center gap-2">
-          <img src="/logo-b.svg" alt="Dubai Invest" className="h-10" />
+          <img src="/logo.svg" alt="Dubai Invest" className="h-10" />
           <div className="font-semibold text-lg">Dubai Invest</div>
         </div>
         
