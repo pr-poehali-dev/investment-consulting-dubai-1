@@ -32,11 +32,11 @@ const StatsSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {stats.map((stat, index) => (
-            <Card key={index} className="bg-white/25 border-white/30 text-center shadow-xl hover:bg-white/35 transition-colors">
+            <Card key={index} className="bg-white/40 border-white/50 text-center shadow-xl hover:bg-white/50 transition-colors">
               <CardContent className="pt-6">
                 <div className="flex justify-center mb-4">{stat.icon}</div>
                 <div className="text-4xl font-bold mb-2">{stat.value}</div>
-                <div className="text-lg">{stat.label}</div>
+                <div className="text-lg font-medium">{stat.label}</div>
               </CardContent>
             </Card>
           ))}
