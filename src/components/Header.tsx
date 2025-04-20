@@ -16,9 +16,9 @@ const Header = () => {
           <NavigationMenuList>
             <NavigationMenuItem>
               <Link to="/">
-                <NavigationMenuLink className="px-4 py-2 hover:text-primary transition-colors">
+                <div className="px-4 py-2 hover:text-primary transition-colors">
                   Главная
-                </NavigationMenuLink>
+                </div>
               </Link>
             </NavigationMenuItem>
             
@@ -41,17 +41,17 @@ const Header = () => {
             
             <NavigationMenuItem>
               <Link to="/about">
-                <NavigationMenuLink className="px-4 py-2 hover:text-primary transition-colors">
+                <div className="px-4 py-2 hover:text-primary transition-colors">
                   О нас
-                </NavigationMenuLink>
+                </div>
               </Link>
             </NavigationMenuItem>
             
             <NavigationMenuItem>
               <Link to="/contact">
-                <NavigationMenuLink className="px-4 py-2 hover:text-primary transition-colors">
+                <div className="px-4 py-2 hover:text-primary transition-colors">
                   Контакты
-                </NavigationMenuLink>
+                </div>
               </Link>
             </NavigationMenuItem>
           </NavigationMenuList>
